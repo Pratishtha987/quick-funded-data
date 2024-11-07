@@ -4,7 +4,7 @@ import {
   Routes,
   Route,
   Navigate,
-} from "..vite.config";
+} from "build.rollupOptions.external";
 import ContactForm from "./components/ContactForm";
 import HomePage from "./pages/HomePage";
 import TermsAndConditionsModal from "./components/TermsAndConditionsModal";
