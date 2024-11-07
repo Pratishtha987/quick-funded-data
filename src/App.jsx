@@ -12,13 +12,14 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Navigate to="/home" />} />
-        <Route path="/home" element={<HomePage />} />
-        <Route path="/contact" element={<ContactForm />} />
-        <Route
+        <Route path="/">
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/contact" element={<ContactForm />} />
+        </Route>
+        {/* <Route
           path="/contact/terms-conditions"
           element={<TermsAndConditionsModal />}
-        />
+        /> */}
         {/* <Route path="/contact" element={<ContactForm />} /> */}
       </Routes>
       {/* <ContactForm /> */}
