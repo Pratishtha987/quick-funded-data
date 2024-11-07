@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
-import { XCircleIcon } from "@heroicons/react/24/outline";
+// import { XCircleIcon } from "@heroicons/react/24/outline";
+import { ImCross } from "react-icons/im";
 
 const TermsAndConditionsModal = ({ children }) => {
   const [open, setOpen] = useState(false);
@@ -57,7 +58,8 @@ const TermsAndConditionsModal = ({ children }) => {
                       className="text-gray-400 bg-transparent hover:text-gray-200 focus:outline-none"
                       onClick={handleCloseModal}
                     >
-                      <XCircleIcon className="w-8 h-8" />
+                      {/* <XCircleIcon className="w-8 h-8" /> */}
+                      <ImCross />
                     </button>
                   </div>
 
