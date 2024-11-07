@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ["@heroicons/react/24/outline"],
+      external: ["react", "react-dom"], // Add your external dependencies here
     },
   },
 });
