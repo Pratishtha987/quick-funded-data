@@ -19,7 +19,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: ["lucide-react"],
-      // Explicitly mark it as external if needed
+      external: ["react-router-dom"], // Explicitly mark it as external if needed
     },
   },
 });
