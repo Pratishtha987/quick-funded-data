@@ -4,7 +4,7 @@ import {
   Routes,
   Route,
   Navigate,
-} from "react-router-dom";
+} from "/react-router-dom";
 import ContactForm from "./components/ContactForm";
 import HomePage from "./pages/HomePage";
 import TermsAndConditionsModal from "./components/TermsAndConditionsModal";
