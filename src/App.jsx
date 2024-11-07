@@ -1,10 +1,5 @@
 import "./App.css";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from "react-router-dom";
+import { Routes, Route, Navigate } from "node_modules/react-router-dom";
 import ContactForm from "./components/ContactForm";
 import HomePage from "./pages/HomePage";
 import TermsAndConditionsModal from "./components/TermsAndConditionsModal";
